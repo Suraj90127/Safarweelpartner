@@ -1,0 +1,43 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  // NativeWind v4 requires this preset.
+  content: ['./App.{js,jsx,ts,tsx}', './src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class',
+  presets: [require('nativewind/preset')],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#fe4c01',
+        'primary-dark': '#EAB308',
+        'primary-light': '#FEF08A',
+        secondary: '#111827',
+        'secondary-light': '#1F2937',
+        accent: '#fe4c01',
+        'accent-dark': '#EA580C',
+        success: '#22C55E',
+        'success-dark': '#16A34A',
+        'success-light': '#BBF7D0',
+        danger: '#EF4444',
+        'danger-dark': '#DC2626',
+        'danger-light': '#FEE2E2',
+        warning: '#F59E0B',
+        'warning-light': '#FEF3C7',
+        lightBg: '#FFFFFF',
+        lightCard: '#FFFFFF',
+        lightCard2: "#F8F8FC",
+        lightBorder: '#f1f5f9',
+        darkBg: '#0F172A',
+        darkCard: '#1E293B',
+        darkBorder: '#334155',
+        textLight: '#111827',
+        textLightSecondary: '#6B7280',
+        textDark: '#F1F5F9',
+        textDarkSecondary: '#94A3B8',
+        brandBlue: '#0F2B5C',
+        brandBlueLight: '#fe4c01',
+        brandYellow: '#fe4c01',
+      },
+    },
+  },
+  plugins: [],
+};

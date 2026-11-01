@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "935857596137",
+    "project_id": "safarwheel",
+    "storage_bucket": "safarwheel.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935857596137:android:80e096cf4ac25b55a9f278",
+        "android_client_info": {
+          "package_name": "com.safarweel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5zlyh_IwM7-2DDssAkA9V_lNLWKP-fLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935857596137:android:82d313f6598e146ea9f278",
+        "android_client_info": {
+          "package_name": "com.safarweelpartner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5zlyh_IwM7-2DDssAkA9V_lNLWKP-fLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
